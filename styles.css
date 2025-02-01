@@ -1,0 +1,371 @@
+.reset {
+  all: unset;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d0b9a9;
+  border-radius: 10px;
+}
+
+.wedding {
+  background-image: url("./assets/background-main.jpg");
+  text-align: center;
+}
+
+.wedding-main {
+  padding-top: 109px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.heading-main {
+  padding-top: 60px;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 6%;
+}
+
+.heading-text {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: 2%;
+  color: #ea8a62;
+}
+
+.feather {
+  padding-top: 60px;
+}
+
+.feather-img {
+  transform: rotate(40deg);
+}
+
+.arrow {
+  padding-top: 60px;
+}
+
+.arrow-bounce {
+  animation: arrow-bounce 2s ease infinite;
+}
+@keyframes arrow-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+.wedding-calendar {
+  padding-top: 155px;
+  position: relative;
+}
+
+.wedding-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2%;
+}
+
+.wedding-calendar-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 27%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-calendar-row {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 2%;
+}
+
+.wedding-calendar-spot {
+  position: absolute;
+  z-index: 0;
+  top: 31.5%;
+  right: 14.5%;
+}
+
+.wedding-location {
+  padding-top: 56px;
+  position: relative;
+  text-align: center;
+}
+
+.wedding-location-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -2.5%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-map-btn {
+  position: relative;
+  background: #ea8a62;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.wedding-divo-img {
+  border-radius: 4px;
+  box-shadow: 10px 0px 20px 6px lightgray;
+}
+
+.wedding-program {
+  position: relative;
+  padding-top: 56px;
+}
+
+.wedding-program-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -2.4%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-program-time {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 32px;
+  color: #ea8a62;
+}
+
+.wedding-program-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-program-row {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.wedding-dress {
+  position: relative;
+  padding-top: 56px;
+}
+
+.wedding-dress-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -3%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-dress-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-dress-colors {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+}
+
+.wedding-wishes {
+  position: relative;
+  padding-top: 56px;
+}
+
+.wedding-wishes-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -3%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-wishes-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-contacts {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wedding-chat {
+  position: relative;
+  padding-top: 56px;
+}
+
+.wedding-chat-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -5.5%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-chat-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-tg-btn {
+  position: relative;
+  background: white;
+  color: #ea8a62;
+  border: 1px solid #ea8a62;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wedding-form {
+  position: relative;
+  padding-top: 56px;
+}
+
+.wedding-form-tracks {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: -5.5%;
+  transform: translate3d(-50%, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-form-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-timer {
+  position: relative;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.wedding-timer-heading {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  color: #ea8a62;
+}
+
+.wedding-timer-container {
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+}
+
+.wedding-timer-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wedding-timer-number {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #ea8a62;
+}
+
+.wedding-lovely-text {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ea8a62;
+}
+
+.wedding-authors-text {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  color: #ea8a62;
+  letter-spacing: 2px;
+}
+
+.wedding-time-fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.wedding-timer-visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+}
